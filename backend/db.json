@@ -1,0 +1,60 @@
+{
+  "vagas": [
+    {
+      "id": "1",
+      "nome": "Desenvolver FrontEnd Jr",
+      "foto": "foto1.jpg",
+      "descricao": "Trabalhar com HTML, CSS e JS",
+      "salario": 50000
+    },
+    {
+      "id": "2",
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 9000
+    },
+    {
+      "id": "3",
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 18000
+    },
+    {
+      "nome": "Design Ux/Ui",
+      "foto": "foto4.jpg",
+      "descricao": "Trabalhar com Design de Páginas Web",
+      "salario": 5000,
+      "id": "PxeeI7fYMYY"
+    },
+    {
+      "id": "AatqO7Wf3iY",
+      "nome": "",
+      "foto": "",
+      "descricao": "",
+      "salario": 0
+    }
+  ],
+  "curriculos": [
+    {
+      "nome": "Filipe Augusto Reis",
+      "idade": 17,
+      "foto": "minha-foto.jpg",
+      "descricao": "Sou muito bom 😅",
+      "experiancias": "Várias",
+      "titulosEcargos": "cursando técnico em DS no SENAI de Americana",
+      "id": "8Lr_zU6SYxc"
+    },
+    {
+      "id": "aoa8w9mdB7g",
+      "nome": "teste",
+      "idade": 1,
+      "foto": "teste.jpg",
+      "descricao": "testando",
+      "experiencias": "já testou todos os programas do mundo pela empresa Testes SA",
+      "titulosEcargos": "testador profissional"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,19 @@
+<section class="listar-curriculos">
+  <!-- property do data binding ngFor -->
+   @for (curriculo of curriculos; track curriculos){
+     <!-- template de cada vaga -->
+   <div>
+      <div class="card">
+        <img src="\assets\img\curriculos\{{curriculo.foto}}" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Código do Currículo: {{curriculo.id}}</h5>
+          <h5 class="card-title">Nome: {{curriculo.nome}}</h5>
+          <p class="card-title">Idade: {{curriculo.idade}}</p>
+          <p class="card-text">Descrição: {{curriculo.descricao}}</p>
+          <p class="card-text">Experiências: {{curriculo.experiencias}}</p>
+          <p class="card-text">Títulos e Cargos: {{curriculo.titulosEcargos}}</p>
+        </div>
+      </div>
+   </div>
+  }
+</section>
